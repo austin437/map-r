@@ -1,0 +1,29 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.map_r-form-table {
+     text-align: left;
+ }
+
+ .map_r-form-table .id-col {
+    text-align: left;
+    width: 7%;
+ }
+
+ .map_r-form-table .local-col,
+ .map_r-form-table .remote-col,
+ .map_r-form-table .action-col {
+    text-align: left;
+    width: 31%;
+ }
+
+ .map_r-form-table tr th,
+ .map_r-form-table tr td {
+    padding: 5px 40px 5px 5px;
+ }
+
+ .map_r-form-input {
+    width: 90%;
+ }
