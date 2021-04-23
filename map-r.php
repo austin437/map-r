@@ -45,19 +45,19 @@ define( 'LOG_PATH',  plugin_dir_path( __DIR__ ) .'map-r/logs/debug.log'   );
 
 /**
  * The code that runs during plugin activation.
- * This action is documented in includes/class-map_r-activator.php
+ * This action is documented in includes/class-map-r-activator.php
  */
 function activate_map_r() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-map_r-activator.php';
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-map-r-activator.php';
 	Map_R_Activator::activate();
 }
 
 /**
  * The code that runs during plugin deactivation.
- * This action is documented in includes/class-map_r-deactivator.php
+ * This action is documented in includes/class-map-r-deactivator.php
  */
 function deactivate_map_r() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-map_r-deactivator.php';
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-map-r-deactivator.php';
 	Map_R_Deactivator::deactivate();
 }
 
